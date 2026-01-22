@@ -24,6 +24,7 @@ const Home = () => {
   }, []);
 
   return (
+    
     <div data-scroll-container ref={scrollRef}
     className=" relative overflow-x-hidden">
       
