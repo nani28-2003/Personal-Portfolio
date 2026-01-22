@@ -8,6 +8,7 @@ export default defineConfig({
   base:'/Personal-Portfolio/',
   build: {
     outDir: 'docs',
+    emptyOutDir: true,
   },
 }
 )
