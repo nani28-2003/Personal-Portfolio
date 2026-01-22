@@ -1,5 +1,6 @@
 {
-  "name": "perosnalportfolio",
+  "name": "perosnal-portfolio",
+  "homepage": "http://nani28-2003.github.io/Personal-Portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,10 +8,13 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d docs"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",
+    "gh-pages": "^6.3.0",
     "locomotive-scroll": "^5.0.1",
     "motion": "^12.27.1",
     "react": "^19.2.0",

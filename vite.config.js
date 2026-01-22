@@ -5,11 +5,6 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(),tailwindcss()],
-  base:'/Personal-Portfolio/',
-  build: {
-    outDir: 'docs',
-    assetsDir: 'assets',
-    emptyOutDir: true,
-  },
+  base:'/Personal-Portfolio',
 }
-)
+);
