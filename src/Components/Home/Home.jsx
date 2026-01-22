@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import LocomotiveScroll from "locomotive-scroll";
 
-import Navbar from "./Navbar";
+import Navbar from "../Navbar/Navbar";
 import Hero from "./Hero";
 import Scrolling from "../Scrolling/Scrolling";
 import AboutMe from "../AboutMe/AboutMe";
