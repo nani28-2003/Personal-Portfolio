@@ -14,7 +14,7 @@ const Scrolling = () => {
         trigger: ".scrool",
       start:"top 45%",
     end:"bottom 40%",
-    ease:"power4.out",
+   
         scrub: 0.9,
       },
     })
