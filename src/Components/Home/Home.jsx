@@ -6,7 +6,7 @@ import Hero from "./Hero";
 import Scrolling from "../Scrolling/Scrolling";
 import AboutMe from "../Aboutme/AboutMe";
 
-import JustAni from "../Aboutme/JustAni";
+import JustAni from "../AboutMe/JustAni";
 import Projects from "../Projects/Projects";
 import Skills from "../Skills/Skills";
 
