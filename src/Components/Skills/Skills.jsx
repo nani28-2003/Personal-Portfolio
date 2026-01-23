@@ -50,12 +50,12 @@ const Skills = () => {
   
   return (
     <div>
-           <div className="font-lg text-[10vh] m-[10vh]">
+           <div className="font-lg text-[10vh] m-[10vh]" id='skills'>
       <h1>Featured Skills</h1>
 
       <div ></div>
 
-      <div className="border-[1px] border-zinc-400 w-full grid grid-cols-1 md:grid-cols-2 m-10 gap-10">
+      <div className=" border-zinc-400 w-full grid grid-cols-1 md:grid-cols-2 m-10 gap-10">
         {skills.map((item, i) => (
           <Card
             key={i}

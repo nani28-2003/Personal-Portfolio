@@ -27,7 +27,8 @@ const Home = () => {
     <>
      <video className=" fixed h-screen w-full object-fill -z-50" src={video} loop muted autoPlay ></video>
     <div data-scroll-container ref={scrollRef}
-    className=" relative overflow-x-hidden">
+    className=" relative overflow-x-hidden"
+    id="home">
      
         <Navbar />
         <Hero />

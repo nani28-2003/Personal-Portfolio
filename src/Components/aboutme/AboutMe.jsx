@@ -1,8 +1,9 @@
 import React from 'react'
 
 const AboutMe = () => {
+  
   return (
-    <div className='text-black  font-["Neue Montreal2"] bg-[#CDEA68] w-screen  h-screen'>
+    <div className='text-black  font-["Neue Montreal2"] bg-[#CDEA68] w-screen  h-screen' id='about'>
       <div className=' tracking-tight text-[5vh] font-medium  p-[4vw]'>
 I build scalable and interactive frontend experiences with a strong focus on performance, usability, and motion-based interactions that feel smooth and intentional.
     </div>

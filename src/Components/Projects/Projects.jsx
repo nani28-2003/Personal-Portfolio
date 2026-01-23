@@ -7,7 +7,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 const Projects = () => {
   return (
-    <Swiper className='h-screen w-screen overflow-hidden text-2xl font-bold mt-20'
+    <Swiper  className='h-screen w-screen overflow-hidden text-2xl font-bold mt-20'
       // install Swiper modules
       modules={[Navigation, Pagination, Scrollbar, A11y]}
       spaceBetween={100}
@@ -17,7 +17,7 @@ const Projects = () => {
       scrollbar={{ draggable: true }}
      
     >
-      <SwiperSlide className='realtive'>Project-1
+      <SwiperSlide className='realtive' id='projects'>Project-1
         <div className=' absolute h-[80vh] w-[80vw] bg-amber-950 z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
 
         </div>

@@ -1,3 +1,9 @@
+
+import gsap from "gsap";
+import { useEffect } from "react";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
+
 const Hero = () => {
   const lines = ["I BUILD", "MODERN & INTERACTIVE", "WEB EXPERIENCES"];
 
@@ -6,8 +12,28 @@ const Hero = () => {
     "For startups and product-based companies",
   ];
 
+   
+  useEffect(() => {
+    gsap.to(
+      ".card",
+      {
+        scale:0.7,
+        opacity: 0.5,
+        scrollTrigger: {
+          trigger: ".card",
+          start: "top 10%",
+          end: "bottom 20%",
+          scrub: 0.5,
+
+
+        },
+      }
+    );
+  }, []);
+
   return (
-    <div className="h-screen w-full text-black py-25">
+   
+    <div className=" card sticky h-screen w-full text-black/100 py-25">
       {lines.map((item, Lines) => (
         <h1
           key={Lines}
