@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import LocomotiveScroll from "locomotive-scroll";
-
+import video from "../../assets/bg-video.mp4";
 import Navbar from "../Navbar/Navbar";
 import Hero from "./Hero";
 import Scrolling from "../Scrolling/Scrolling";
@@ -24,10 +24,11 @@ const Home = () => {
   }, []);
 
   return (
-    
+    <>
+     <video className=" fixed h-screen w-full object-fill -z-50" src={video} loop muted autoPlay ></video>
     <div data-scroll-container ref={scrollRef}
     className=" relative overflow-x-hidden">
-      
+     
         <Navbar />
         <Hero />
         <Scrolling />
@@ -35,7 +36,7 @@ const Home = () => {
         <JustAni />
         <Projects />
         <Skills/>
-    </div>
+    </div></>
   );
 };
 
