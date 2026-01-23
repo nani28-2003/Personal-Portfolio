@@ -37,7 +37,7 @@ const Hero = () => {
       {lines.map((item, Lines) => (
         <h1
           key={Lines}
-          className="text-[6vw] font-medium leading-tighter capitalize px-10  font-['Neue Montreal2'] "
+          className="text-[6vw] font-medium leading-tighter capitalize px-10  "
         >
           {item}
         </h1>
