@@ -33,7 +33,7 @@ const Hero = () => {
 
   return (
    
-    <div className=" card sticky h-screen w-full text-black/100 py-25">
+    <div className=" card sticky h-screen w-full text-black/100 py-26">
       {lines.map((item, Lines) => (
         <h1
           key={Lines}
