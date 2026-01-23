@@ -16,13 +16,13 @@ const Hero = () => {
           {item}
         </h1>
       ))}
-      <div className="border-[1px] border-gray-900 mt-25"></div>
+      <div className="border-width-1px border-gray-900 mt-25"></div>
 
       <div className="flex justify-between py-2 m-1">
         {Side.map((index, Value) => {
           return <p key={Value}>{index}</p>;
         })}
-        <button className="uppercase border-[2px] border-black p-1 flex gap-2 rounded-2xl">
+        <button className="uppercase border-width-2px border-black p-1 flex gap-2 rounded-2xl">
           View the projects{" "}
           <svg
             xmlns="http://www.w3.org/2000/svg"

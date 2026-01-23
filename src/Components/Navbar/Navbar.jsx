@@ -46,7 +46,7 @@ const Navbar = () => {
   return (
     <nav
       ref={navRef}
-      className="fixed top-0 left-0 z-[9999] w-full h-[10vh]
+      className="fixed top-0 left-0 z-9999 w-full h-[10vh]
                  flex justify-between items-center
                  bg-[#F1F1F1]/10 backdrop-blur-md p-6"
     >
