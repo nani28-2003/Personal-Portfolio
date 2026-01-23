@@ -66,7 +66,7 @@ const Navbar = () => {
       <div className="font-bold text-xl">LOGO</div>
 
       {/* NAV LINKS */}
-      <div className="flex gap-3 text-zinc-800">
+      <div className=" gap-3 text-zinc-800">
         {[
           { name: "Home", id: "home" },
           { name: "About", id: "about" },

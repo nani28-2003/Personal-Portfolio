@@ -4,7 +4,8 @@ import video from "../../assets/bg-video.mp4";
 import Navbar from "../Navbar/Navbar";
 import Hero from "./Hero";
 import Scrolling from "../Scrolling/Scrolling";
-import AboutMe from "../AboutMe/AboutMe";
+import AboutMe from "../aboutMe/AboutMe";
+
 import JustAni from "../aboutme/JustAni";
 import Projects from "../Projects/Projects";
 import Skills from "../Skills/Skills";
